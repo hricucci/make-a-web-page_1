@@ -1,0 +1,102 @@
+@font-face{
+	font-family: 'FrancoisOne';
+	src: url(Francois_one/FrancoisOne.ttf);
+}
+
+a:link {
+	text-decoration: none;
+	color:white;
+}
+a:visited {
+	text-decoration: none;
+	color:gray;
+}
+a:hover {
+	color:white;
+}
+
+a:active{
+	color:white;
+}
+
+body {
+	max-width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EEEEEE;
+}
+
+.body {
+	background-color: #EEEEEE;
+	padding-top: 1px;
+	
+}
+
+.text {
+	color:#5F5F5F;
+	font-family: FrancoisOne;
+	font-size: 18px;
+	background-color: white;
+	border-bottom: 4px inset darkgray;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: justify;
+	
+}
+
+
+h1 {
+	text-align: center;
+	color: #000000;
+}
+
+h2 {
+	color:blue;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	background-color:none;
+	font-size: 24px;
+	color:gray;
+	font-family: FrancoisOne;
+	font-style: bold;
+	margin-left: 1px;
+	width: auto;
+	height: auto;
+	display: block;
+	
+	
+}
+
+li {
+	font-size: 16px;
+	background-color:lightblue;
+	background-clip: padding-box;
+	border:2px inset gray;
+	border-radius:8px;
+	margin-left: 15px;
+	padding: 5px;
+	width: auto;
+	height:auto;
+	display: inline-block;
+
+
+	
+}
+
+
+.lessontittle {
+	color:black;
+	font-family:FrancoisOne; 
+	font-size:40px; 
+	margin-top:200px; 
+	margin-left:30px; 
+	margin-bottom: 80px;
+	border-bottom: 2px inset gray; 
+	width:750px;
+}
